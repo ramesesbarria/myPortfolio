@@ -1,12 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myFirstPortfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Links!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <script src="javascript.js"></script>
-    
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-name">Rameses Barria</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">My Links!</a></li>
+      <!-- <li><a href="">Portfolio</a></li> --> 
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <p class="hero-greeting">Hey, I'm</p>
+    <h1>Rameses<br>Barria</h1>
+    <p>Connect with me here!</p>
+    <a href="#about" class="hero-btn">Get to know me</a>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="fade-in">
+      <p class="section-label">01 — About</p>
+      <h2>A bit about me.</h2>
+      <p>Hey! I'm Rameses — I'm an RPA and Software Engineer Intern at VBP and a Computer Science student at the University of San Carlos.</p>
+      <p>I firmly believe that 
+        <strong><em>you don't rise to the occasion, you sink to the level of your training.</em></strong>
+        Building youself up <strong>1%</strong> each day is the foundation you'll need one day.
+      </p>
+      
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies">
+    <div class="fade-in">
+      <p class="section-label">02 — Hobbies</p>
+      <h2>What I'm into.</h2>
+      <div class="hobbies-grid">
+
+        <div class="hobby-card">
+          <div class="hobby-icon">⚽</div>
+          <h3>Soccer</h3>
+          <p>A brickwall on defense</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-icon">🏓</div>
+          <h3>Pickleball</h3>
+          <p>The fastest growing sport for a reason</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-icon">🏀</div>
+          <h3>Basketball</h3>
+          <p>2k and real life</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-icon">🎵</div>
+          <h3>Music</h3>
+          <p>Follow my spotify</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-icon">⌨️</div>
+          <h3>Keyboards</h3>
+          <p>Broke because of this</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-icon">🔌</div>
+          <h3>Arduino</h3>
+          <p>I burnt myself making a fire alarm</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-icon">💻</div>
+          <h3>Coding</h3>
+          <p>My everyday</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-icon">🎬</div>
+          <h3>Film & Editing</h3>
+          <p>My creative outlet</p>
+        </div>
+
+        <div class="hobby-card">
+          <div class="hobby-icon">🍳</div>
+          <h3>Cooking</h3>
+          <p>My first love</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="fade-in">
+      <p class="section-label">03 — My Links!</p>
+      <h2>Say hello. Here are my Links!</h2>
+      <p>Whether it's a question, a collab, or just to chat — I'm around.</p>
+
+      <div class="contact-links">
+
+        <!-- Replace href="#" with your real links! -->
+        <a href="mailto:ramesesluis@gmail.com" class="contact-link">
+          <span class="link-icon">✉️</span>
+          <div>
+            <div>Email</div>
+            <div class="link-label">ramesesluis@gmail.com</div>
+          </div>
+          <span class="link-arrow">→</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ramesesbarria777/" class="contact-link" target="_blank">
+          <span class="link-icon">💼</span>
+          <div>
+            <div>LinkedIn</div>
+            <div class="link-label">https://www.linkedin.com/in/ramesesbarria777/</div>
+          </div>
+          <span class="link-arrow">→</span>
+        </a>
+
+        <a href="https://github.com/ramesesbarria" class="contact-link" target="_blank">
+          <span class="link-icon">🐙</span>
+          <div>
+            <div>GitHub</div>
+            <div class="link-label">github.com/ramesebarria</div>
+          </div>
+          <span class="link-arrow">→</span>
+        </a>
+
+        <a href="#" class="contact-link">
+          <span class="link-icon">...</span>
+          <div>
+            <div>Project Portfolio</div>
+            <div class="link-label">coming soon</div>
+          </div>
+          <span class="link-arrow">→</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>My Links! and about me by <span>Rameses Barria</span> · Come back soon!</p>
+  </footer>
+
+  <!-- Your script — placed at the end of body so HTML loads first -->
+  <script src="script.js"></script>
+
 </body>
 </html>
